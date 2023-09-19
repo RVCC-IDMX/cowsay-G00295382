@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cows": "cowsay -h",
+    "help": "cowsay -l",
+    "cowsay": "cowsay"
   },
   "keywords": [],
   "author": "Bradley Risack <G00295382@stu.raritanval.edu> (https://github.com/zieraell)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
 }
